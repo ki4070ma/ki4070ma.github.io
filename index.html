@@ -1,1 +1,585 @@
-Hello World
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.2">
+    
+    
+      
+        <title>change-passwd-func</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/application.30686662.css">
+      
+        <link rel="stylesheet" href="assets/stylesheets/application-palette.a8b3c06d.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#4caf50">
+      
+    
+    
+      <script src="assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="green" data-md-color-accent="lightgreen">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#assignment" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="." title="change-passwd-func" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              change-passwd-func
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Home
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="." title="change-passwd-func" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    change-passwd-func
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Home
+      </label>
+    
+    <a href="." title="Home" class="md-nav__link md-nav__link--active">
+      Home
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#add-password-requirement" class="md-nav__link">
+    Add password requirement
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-run-test" class="md-nav__link">
+    How to run test
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#test-design-and-test-cases" class="md-nav__link">
+    Test design and Test cases
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#others" class="md-nav__link">
+    Others
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Reference
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Reference
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-1" type="checkbox" id="nav-2-1">
+    
+    <label class="md-nav__link" for="nav-2-1">
+      Change Pswd Func
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-1">
+        Change Pswd Func
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/change_pswd_func/change_pswd/" title="Change Pswd" class="md-nav__link">
+      Change Pswd
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/change_pswd_func/check_similarity/" title="Check Similarity" class="md-nav__link">
+      Check Similarity
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/change_pswd_func/constants/" title="Constants" class="md-nav__link">
+      Constants
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/change_pswd_func/find_pswd/" title="Find Pswd" class="md-nav__link">
+      Find Pswd
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/change_pswd_func/" title="Index" class="md-nav__link">
+      Index
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/change_pswd_func/log/" title="Log" class="md-nav__link">
+      Log
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/change_pswd_func/verify_pswd/" title="Verify Pswd" class="md-nav__link">
+      Verify Pswd
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#add-password-requirement" class="md-nav__link">
+    Add password requirement
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-run-test" class="md-nav__link">
+    How to run test
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#test-design-and-test-cases" class="md-nav__link">
+    Test design and Test cases
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#others" class="md-nav__link">
+    Others
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <p><a href="https://travis-ci.org/ki4070ma/change-passwd-func"><img alt="Build Status" src="https://travis-ci.org/ki4070ma/change-passwd-func.svg?branch=master" /></a>
+<a href="https://codecov.io/gh/ki4070ma/change-passwd-func"><img alt="codecov" src="https://codecov.io/gh/ki4070ma/change-passwd-func/branch/master/graph/badge.svg" /></a></p>
+<h1 id="assignment">Assignment</h1>
+<h2 id="add-password-requirement">Add password requirement</h2>
+<ol>
+<li>At least 18 alphanumeric characters and list of special chars !@#$&amp;*</li>
+<li>[Add] Maximum length is 1000.<ul>
+<li>Because 1000 is enough as password and would like not to take care of large length like <code>sys.maxsize</code> from quality point of view. Too large length password may impact to the system like performance wise.</li>
+</ul>
+</li>
+</ol>
+<h2 id="how-to-run-test">How to run test</h2>
+<div class="codehilite"><pre><span></span><span class="ss">(</span><span class="nv">setup</span> <span class="nv">python3</span> <span class="nv">environment</span><span class="ss">)</span>
+$ <span class="nv">git</span> <span class="nv">clone</span> <span class="nv">git</span>@<span class="nv">github</span>.<span class="nv">com</span>:<span class="nv">ki4070ma</span><span class="o">/</span><span class="nv">change</span><span class="o">-</span><span class="nv">passwd</span><span class="o">-</span><span class="nv">func</span>.<span class="nv">git</span>
+$ <span class="nv">cd</span> <span class="nv">change_passwd_func</span>
+$ <span class="nv">pip</span> <span class="nv">install</span> <span class="o">-</span><span class="nv">r</span> <span class="nv">requirements</span>.<span class="nv">txt</span>
+$ <span class="nv">py</span>.<span class="nv">test</span>
+$ <span class="ss">(</span><span class="nv">py</span>.<span class="nv">test</span> <span class="o">--</span><span class="nv">capture</span><span class="o">=</span><span class="nv">no</span> <span class="o">--</span><span class="nv">verbose</span> <span class="o">--</span><span class="nv">cov</span> . <span class="o">--</span><span class="nv">cov</span><span class="o">-</span><span class="nv">report</span><span class="o">=</span><span class="nv">html</span><span class="ss">)</span>  # <span class="nv">To</span> <span class="k">show</span> <span class="nv">details</span> <span class="nv">and</span> <span class="nv">generate</span> <span class="nv">code</span> <span class="nv">coverage</span> <span class="nv">report</span>
+</pre></div>
+
+
+<h2 id="test-design-and-test-cases">Test design and Test cases</h2>
+<p>Used decision table to check coverage</p>
+<ul>
+<li>For verify_pswd, find_pswd, check_similarity, change_pswd<ul>
+<li>https://docs.google.com/spreadsheets/d/1Gq1EUD5i_Ko0uE9PCUINHnwNm5oDvesw5OMNhHfZT14/edit?usp=sharing</li>
+</ul>
+</li>
+</ul>
+<h2 id="others">Others</h2>
+<ul>
+<li>You can try <code>main.py</code> as below</li>
+</ul>
+<div class="codehilite"><pre><span></span><span class="nv">$python3</span> main.py <span class="s2">&quot;\!12Ab11Ab11Ab11Ab11Ab&quot;</span> <span class="s2">&quot;\!12Ab11Ab11abcdefghij&quot;</span>
+
+<span class="o">[</span>pswd<span class="o">]</span>: !12Ab11Ab11abcdefghij
+<span class="o">[</span>OK<span class="o">]</span> Valid password
+
+<span class="o">[</span>string1<span class="o">]</span>: !12Ab11Ab11Ab11Ab11Ab
+<span class="o">[</span>string2<span class="o">]</span>: !12Ab11Ab11abcdefghij
+<span class="o">[</span>OK<span class="o">]</span> Changed password successfully
+</pre></div>
+
+
+<h1 id="objective">Objective</h1>
+<p>We want you to create a change password function based on below specification.
+This change password function will just return True or False back to function caller to inform the caller
+whether the password can be changed successfully or not. For the old password requirement you can do
+it as a simple mock function. Apart from the change password function you may need to write the
+automate test for the created function as well.</p>
+<p>Instructions：
+* You can use your choice of programming language
+* Hosting on your personal GitHub page, starting from the initial commit is expected
+* A simple README, with necessary setup instruction and note on any peculiar cases handled will
+be appreciated</p>
+<h1 id="change-password-function">Change password function</h1>
+<h2 id="requirements">Requirements</h2>
+<ul>
+<li><code>ChangePassword(oldPassword: String, newPassword: String)</code></li>
+<li>[py] <code>change_pswd(old_pswd: str, new_pswd: str) -&gt; bool</code></li>
+</ul>
+<h2 id="tasks">Tasks</h2>
+<p>Please complete the point below
+1. Code for change password function
+2. Implement automate test for the created function, test cases with test data provide in each case
+3. The verify password with system and similar check function should be a mock which return True/False</p>
+<h2 id="password-requirement">Password requirement</h2>
+<ol>
+<li>At least 18 alphanumeric characters and list of special chars !@#$&amp;*</li>
+<li>At least 1 Upper case, 1 lower case ,least 1 numeric, 1 special character</li>
+<li>No duplicate repeat characters more than 4</li>
+<li>No more than 4 special characters</li>
+<li>50 % of password should not be a number</li>
+</ol>
+<h2 id="change-password-requirement">Change password requirement</h2>
+<ol>
+<li>Old password should match with system</li>
+<li>New password should be a valid password</li>
+<li>password is not similar to old password &lt; 80% match.</li>
+</ol>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+        
+          <a href="reference/change_pswd_func/change_pswd/" title="Change Pswd" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Change Pswd
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Powered by
+        <a href="http://timothycrosley.github.io/portray">portray.</a>
+        You too can
+        <a href="http://timothycrosley.github.io/portray">
+          portray</a>
+        your Python project well using automatic documentation.
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="assets/javascripts/application.c648116f.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"."}})</script>
+      
+    
+  </body>
+</html>

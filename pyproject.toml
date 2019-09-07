@@ -1,0 +1,2 @@
+[tool.portray]
+modules = ["change_pswd_func"]
